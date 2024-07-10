@@ -1,0 +1,47 @@
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    inline-size: 500px;
+
+    background-color: #FFAEBC;
+
+    font-family: verdana;
+    color: blueviolet;
+    
+}
+
+.subtitle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    inline-size: 500px;
+
+    background-color: #FFAEBC;
+
+    font-family: verdana;
+
+    font-family: verdana;
+    color: blueviolet;
+}
+
+.pulse{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    inline-size: 500px;
+
+    background-color: #FFAEBC;
+
+    animation: pulse 2s linear infinite;
+}
+
+@keyframe pulse{
+    0% 
+    50%
+    60%
+}
+    
